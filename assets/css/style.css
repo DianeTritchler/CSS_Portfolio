@@ -1,0 +1,127 @@
+/* Nav Bar */
+.name{
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background: transparent;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-image: url("../images/Header.jpg");
+    background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: 100%;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background: transparent;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 30px;
+    color: #C7CCCE;
+    background: transparent;
+}
+
+nav, ul, li, a{
+    background: transparent;
+}
+
+/* Page Layout */
+.title{
+    width: 15%;
+    text-align: center;
+    margin-bottom: 3.5%;
+    border-right: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.body{
+    width: 60%;
+    text-align: right;
+    margin: 3.5%;
+}
+
+section{
+    display: flex;
+}
+
+p{
+    padding: 20px;
+}
+
+
+/* Contact Me Section */
+.contact-element{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+/* MY Work */
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    opacity: 0.75;
+    max-width: 100%;
+}
+  
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    opacity: 1;
+}
+  
+.featured{
+    width: 100%;
+    display: flex;
+    border: 2px gray solid;
+    margin: 2%;
+    padding: 20px;
+}
+
+.row{
+    width: 120%;
+    display: inline-block;
+    /* padding: 20px; */
+    margin: 2%;
+    margin-left: 0px;
+    justify-content: center;
+}
+
+.everything-else{
+    width: 30%;
+    display: inline-flex;
+    height: 50px;
+    margin: 10px;
+}
+
+*{
+    background-color:rgb(219, 240, 247)
+}
+
+
+
+
+
+
+
+
